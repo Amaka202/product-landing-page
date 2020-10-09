@@ -3,39 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Product Landing Page</title>
 </head>
 <body>
     <div class="container">
-        <header id="header">
-            <img src="./images/original_trombones.png" alt="product icon" id="header-img" width="250px">
+        
+        <header id="header" class="flexed">
+            <img src="./images/original_trombones.png" alt="product icon" id="header-img" width="300px">
             <nav id="nav-bar">
-                <a href="" class="nav-link" id="features">Features</a>
-                <a href="" class="nav-link" id="howitworks">How it works</a>
-                <a href="" class="nav-link" id="pricing">Pricing</a>
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#howitworks" class="nav-link">How it works</a>
+                <a href="#pricing" class="nav-link">Pricing</a>
             </nav>
         </header>
-        <!-- email -->
-        <section id="email-sect">
+            <!-- email -->
+        <main class="main">
+            <section id="email-sect">
+                <h2>HandCrafted,home-made masterpiece</h2>
+                <form action="https://www.freecodecamp.com/email-submit" id="form">
+                    <input type="email" placeholder="Enter your email" id="email">
+                    <input type="button" value="GET STARTED" class="btn">
+                </form>
+            </section>
+            <!-- services -->
+            <section id="features">
+                <div class="flexed feat">
+                    <i class="fa fa-3x fa-fire item1"></i>
+                    <div class="item2">
+                        <h3>Premium Materials</h3>
+                        <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+                    </div>
+                </div>
+                <div class="flexed feat">
+                    <i class="fa fa-truck item1"></i>
+                    <div class="item2">
+                        <h3>Fast Shipping</h3>
+                        <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+                    </div>
+                </div>
+                <div class="flexed feat">
+                    <i class="fa fa-battery-full item1"></i>
+                    <div class="item2">
+                        <h3>Quality Assurance</h3>
+                        <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+                    </div>
+                </div>
 
-        </section>
-        <!-- services -->
-        <section id="features">
-
-        </section>
-        <!-- video -->
-        <section id="howitworks" >
-
-        </section>
-        <!--pricing  -->
-        <section id="pricing">
-
-        </section>
-        <!-- footer -->
-        <footer>
-            
-        </footer>
+            </section>
+            <!-- video -->
+            <section id="howitworks" >
+                <iframe width="450" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" id="video" allowfullscreen></iframe>
+            </section>
+            <!--pricing  -->
+            <section id="pricing" class="flexed">
+                <div class="price-item">
+                    <h4>Tenor Trombone</h4>
+                    <p class="price">₦600</p>
+                    <p>Lorem Ipsum</p>
+                    <p>Lorem Ipsum</p>
+                    <p>Lorem Ipsum</p>
+                    <p>Lorem Ipsum</p>
+                    <form action="">
+                        <input type="button" value="SELECT" class="btn2">
+                    </form>
+                </div>
+                <div class="price-item">
+                    <h4>Bass Trombone</h4>
+                    <p class="price">₦900</p>
+                    <p>Lorem Ipsum</p>
+                    <p>Lorem Ipsum</p>
+                    <p>Lorem Ipsum</p>
+                    <p>Lorem Ipsum</p>
+                    <form action="">
+                        <input type="button" value="SELECT" class="btn2">
+                    </form>
+                </div>
+                <div class="price-item">
+                    <h4>Valve Trombone</h4>
+                    <p class="price">₦1200</p>
+                    <p>Lorem Ipsum</p>
+                    <p>Lorem Ipsum</p>
+                    <p>Lorem Ipsum</p>
+                    <p>Lorem Ipsum</p>
+                    <form action="">
+                        <input type="button" value="SELECT" class="btn2">
+                    </form>
+                </div>
+            </section>
+            <!-- footer -->
+            <footer>
+                <nav>
+                    <a href="#">Privacy</a>
+                    <a href="#">Terms</a>
+                    <a href="#">Contact</a>
+                </nav>
+                <p>Copyright 2016, Original Trombones</p>
+            </footer>
+        </main>    
     </div>
 </body>
 </html>
