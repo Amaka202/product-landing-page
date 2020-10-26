@@ -14,8 +14,7 @@ body{
 }
 
 .container{
-    background-color: #eeeeee;
-    padding: 0 2rem;
+    /* padding: 0 2rem; */
     max-width: 100vw;
 }
 
@@ -42,7 +41,8 @@ body{
 .main{
     padding: 0 15%;
     padding-top: 7rem;
-    
+    background-color: #eeeeee;
+
 }
 
 #email-sect{
