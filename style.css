@@ -122,6 +122,8 @@ form input{
 #howitworks iframe{
     display: block;
     margin: auto;
+    width: 450px; 
+    height: 315px
 }
 
 #pricing{
@@ -191,6 +193,25 @@ footer p{
 
 }
 
+@media only screen and (max-width: 680px){
+    body{
+        font-size: 70%;
+    }
+
+    .main{
+        padding: 0 5%;
+        padding-top: 7rem;
+        
+    }
+
+    #howitworks iframe{
+        display: block;
+        margin: auto;
+        width: 200px; 
+        height: 150px
+    }
+}
+
 @media only screen and (max-width: 768px){
     body{
         font-size: 90%;
@@ -203,8 +224,3 @@ footer p{
   
 }
 
-@media only screen and (max-width: 680px){
-    body{
-        font-size: 70%;
-    }
-}
