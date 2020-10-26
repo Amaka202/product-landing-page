@@ -27,7 +27,6 @@ body{
 
 #header{
     padding: 2rem;
-    margin-bottom:;
     position: fixed;
     overflow: hidden;
     width: 100%;
@@ -199,16 +198,24 @@ footer p{
     }
 
     .main{
-        padding: 0 5%;
-        padding-top: 7rem;
+        padding: 0 3%;
+        padding-top: 10rem;
         
     }
 
     #howitworks iframe{
         display: block;
         margin: auto;
-        width: 200px; 
-        height: 150px
+        width: 250px; 
+        height: 200px
+    }
+
+    #header{
+        padding: 1rem;
+    }  
+    
+    .nav-link{
+        padding-right: 0.5rem;
     }
 }
 
